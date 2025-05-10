@@ -54,18 +54,18 @@ Here’s how you can use this repo to gain a deep understanding of CNN fundament
 🔍 1. Study Each Layer in Isolation
 Each layer (e.g., convolution, ReLU, max-pooling, affine, softmax) is implemented in its own file:
 
-Conv2d.py: Learn how convolutions apply filters using nested loops and stride/padding logic.
+* Conv2d.py: Learn how convolutions apply filters using nested loops and stride/padding logic.
 
-ReLU.py: Understand how non-linear activations shape model capacity.
+* ReLU.py: Understand how non-linear activations shape model capacity.
 
-Maxpool.py: Observe how spatial downsampling is performed via max-pooling.
+* Maxpool.py: Observe how spatial downsampling is performed via max-pooling.
 
-Affine_layer.py: Explore fully-connected transformations using matrix reshaping and dot products.
+* Affine_layer.py: Explore fully-connected transformations using matrix reshaping and dot products.
 
-Softmax_loss.py: Learn how classification loss and gradients are computed for training.
+* Softmax_loss.py: Learn how classification loss and gradients are computed for training.
 
 ## Clone the Repo
-    git clone https://github.com/yourusername/ThreeLayerConvNet.git
+    git clone https://github.com/vansh-py04/Convolution-Net-from-Scratch.git
     cd ThreeLayerConvNet
 
 🙋‍♂️ Credits
