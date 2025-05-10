@@ -67,5 +67,6 @@ Each layer (e.g., convolution, ReLU, max-pooling, affine, softmax) is implemente
     git clone https://github.com/vansh-py04/Convolution-Net-from-Scratch.git
     cd ThreeLayerConvNet
 
-🙋‍♂️ Credits
+## 🙋‍♂️ Credits
+
 Built with by [Yuganter Pratap](https://www.linkedin.com/in/yuganter-pratap-a3a719254/) — inspired by CS231n and DIY deep learning educational projects.
