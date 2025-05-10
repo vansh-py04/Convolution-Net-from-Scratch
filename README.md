@@ -29,7 +29,7 @@ This minimal CNN supports:
 | `Affine_layer.py`        | Fully-connected (affine) layer logic                                   |
 | `Softmax_loss.py`        | Softmax loss and gradient implementation                               |
 | `Sandwich_layers.py`     | Helper functions for chaining layers: `conv-relu-pool`, `affine-relu`  |
-| `3 layer Conv net.ipynb` | Notebook demonstrating usage and testing of the network                |
+| `Implementation.ipynb` | Notebook demonstrating usage and testing of the network                |
 | `Images`                 | Test Images for out Convolution Layers                                 |  
 
 The model can classify images of shape (3, 32, 32) into 10 classes. You can also plug it into datasets like CIFAR-10 (after appropriate preprocessing).
