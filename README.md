@@ -9,13 +9,13 @@ A from-scratch implementation of a three-layer convolutional neural network (CNN
 
 This minimal CNN supports:
 
-Custom weight initialization
+. Custom weight initialization
 
-Naive forward/backward implementations (no deep learning libraries used)
+. Naive forward/backward implementations (no deep learning libraries used)
 
-Layer composability through modular design
+. Layer composability through modular design
 
-Debugging-friendly shape printing for each major block
+. Debugging-friendly shape printing for each major block
 
 ---
 
