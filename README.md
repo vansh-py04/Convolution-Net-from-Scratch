@@ -46,7 +46,6 @@ Debug output: Key print statements show internal shape flows
 
 Extensible design: Each component is modular and reusable
 
----
 This repository is designed not just to use a CNN — but to help you learn how it actually works under the hood. Every major layer of a convolutional neural network has been manually implemented from scratch using just NumPy, with readable and modular Python code.
 
 Here’s how you can use this repo to gain a deep understanding of CNN fundamentals:
