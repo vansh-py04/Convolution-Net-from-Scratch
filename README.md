@@ -32,6 +32,41 @@ Debugging-friendly shape printing for each major block
 | `3 layer Conv net.ipynb` | Notebook demonstrating usage and testing of the network                |
 | `Images`                 | Test Images for out Convolution Layers                                 |  
 
+The model can classify images of shape (3, 32, 32) into 10 classes. You can also plug it into datasets like CIFAR-10 (after appropriate preprocessing).
+
+---
+
+## 📌 Features
+
+NumPy-only: No TensorFlow/PyTorch/Keras used
+
+Backpropagation from scratch: Every layer implements its own gradient logic
+
+Debug output: Key print statements show internal shape flows
+
+Extensible design: Each component is modular and reusable
+
+---
+This repository is designed not just to use a CNN — but to help you learn how it actually works under the hood. Every major layer of a convolutional neural network has been manually implemented from scratch using just NumPy, with readable and modular Python code.
+
+Here’s how you can use this repo to gain a deep understanding of CNN fundamentals:
+
+🔍 1. Study Each Layer in Isolation
+Each layer (e.g., convolution, ReLU, max-pooling, affine, softmax) is implemented in its own file:
+
+Conv2d.py: Learn how convolutions apply filters using nested loops and stride/padding logic.
+
+ReLU.py: Understand how non-linear activations shape model capacity.
+
+Maxpool.py: Observe how spatial downsampling is performed via max-pooling.
+
+Affine_layer.py: Explore fully-connected transformations using matrix reshaping and dot products.
+
+Softmax_loss.py: Learn how classification loss and gradients are computed for training.
+
+## Clone the Repo
+    git clone https://github.com/yourusername/ThreeLayerConvNet.git
+    cd ThreeLayerConvNet
 
 🙋‍♂️ Credits
 Built with by [Yuganter Pratap](https://www.linkedin.com/in/yuganter-pratap-a3a719254/) — inspired by CS231n and DIY deep learning educational projects.
