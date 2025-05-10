@@ -51,7 +51,7 @@ This repository is designed not just to use a CNN — but to help you learn how 
 
 Here’s how you can use this repo to gain a deep understanding of CNN fundamentals:
 
-🔍 1. Study Each Layer in Isolation
+# Study Each Layer in Isolation
 Each layer (e.g., convolution, ReLU, max-pooling, affine, softmax) is implemented in its own file:
 
 * Conv2d.py: Learn how convolutions apply filters using nested loops and stride/padding logic.
