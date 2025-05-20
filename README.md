@@ -69,4 +69,4 @@ Each layer (e.g., convolution, ReLU, max-pooling, affine, softmax) is implemente
 
 ## 🙋‍♂️ Credits
 
-Built with by [Yuganter Pratap](https://www.linkedin.com/in/yuganter-pratap-a3a719254/) — inspired by CS231n and DIY deep learning educational projects.
+Built by [Yuganter Pratap](https://www.linkedin.com/in/yuganter-pratap-a3a719254/) — inspired by CS231n and DIY deep learning educational projects.
